@@ -34,6 +34,7 @@ int main() {
   swapcontext(main_c, c2);
   yeet_context(c1);
   yeet_context(c2);
+  yeet_context(main_c);
   cout << "done" << endl;
 }
 
